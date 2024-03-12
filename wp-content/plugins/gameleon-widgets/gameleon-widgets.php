@@ -2417,7 +2417,7 @@ class Tigu_Home_Module_6 extends WP_Widget {
   <div class="td-fly-in">
   <?php
   global $wp_query, $paged;
-  $metakey = 'post_views_count';
+  $metakey = 'home_block_6_widget';
   $recent_posts = new WP_Query( array( 'cat' => $categories, 'orderby' => $orderby, 'meta_key' => $metakey, 'posts_per_page' => $posts ) );
   $temp_query = $wp_query;
   $wp_query = null;
